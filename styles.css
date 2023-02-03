@@ -23,7 +23,6 @@ body {
     opacity: 0.8;/* transparencia do item */
     padding: 20px;
     border-radius: 25px;
-
 }
 
 input {
@@ -55,6 +54,12 @@ button:hover {
     margin-top: 30px;
 }
 
+.caixa-menor {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
 .lupa {
     height: 20px;
 }
@@ -66,12 +71,16 @@ h2 {
 
 .temp {
     color: #ffffff;
+    margin-top: 30px;
 }
 
 .descricao {
     color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
 }
 
 .umidade {
     color: #ffffff;
+    margin-top: 30px;
 }

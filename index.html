@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
     <title>Dev Previsão</title>
 </head>
 
@@ -16,16 +17,20 @@
 
     <div class="caixa-maior">
 
-        <input placeholder="Digite o nome da cidade">
-        <button>
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button onclick="cliqueiNoBotao()">
             <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg">
         </button>
 
         <div class="caixa-media">
-            <h2>Tempo em Rio de Janeiro</h2>
+            <h2 class="cidade">Tempo em Rio de Janeiro</h2>
             <p class="temp">28°C</p>
 
-            <p class="descricao">Nuvens Dispersas</p>
+            <div class="caixa-menor">
+                <img class="icone" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="descricao">Nuvens Dispersas</p>
+            </div>
+
             <p class="umidade">Umidade: 70%</p>
         </div>
 
