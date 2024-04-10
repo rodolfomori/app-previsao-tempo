@@ -10,17 +10,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* Altura / vh - altura */
     width: 100vw;
-    /*  vw - largura */
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
 }
 
 .caixa-maior {
-    background-color: #000000;/*  Troca cor de fundo  */
-    width: 95%; /*  Largura  */
-    max-width: 420px; /*  Largura  Maxima */
-    opacity: 0.8;/* transparencia do item */
+    background-color: #000000;
+    width: 95%; 
+    max-width: 420px; 
+    opacity: 0.8;
     padding: 20px;
     border-radius: 25px;
 }
@@ -72,6 +70,7 @@ h2 {
 .temp {
     color: #ffffff;
     margin-top: 30px;
+    font-size: 30px;
 }
 
 .descricao {
