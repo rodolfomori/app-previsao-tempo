@@ -11,7 +11,8 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-image: url("./paisagem-natural.jpg");
+    background-size: cover;
 }
 
 .caixa-maior {
